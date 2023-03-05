@@ -1,0 +1,101 @@
+<DOCTYPE html>
+    <html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>FORMULARIO Y LISTAS</title>
+<link rel="stylesheet" href="../CSS/contacto.css">
+</head>
+
+<body style="background-color: aquamarine;">
+    <header>
+    <img src="../img/inicio.jpg" width="100" alt="incap"
+    h1>LISTAS EN HTML
+</h1>
+<h2>MENU NAVEGACION</h2>
+</header>
+<nav>
+ <ul>
+
+    <li>Home</li>
+    <li>Produtos</li>
+    <li>Tiend on line</li>
+    <li>conacto</li>
+ </ul>
+</nav>
+    <section>
+
+
+        <form action="datos.php" method="post">
+        <!-- seccionde marco de formulario -->
+
+            <fieldset>
+            
+            <!-- seccion de ingreso de nombre --> 
+            <label>Nombre Completo:</label>
+        
+            <input name="nombre" type="text" placeholder="Ingrese su nombre completo" required="">
+            <br><br>
+            <!-- seccion email -->
+            <label> E-mail:</label>
+            ><input name="email" type="email" placeholder="Ingrese su Email" required="">
+            <br><br>
+
+            <!-- seccion contraceña -->
+            </label>contraceña<label>
+<input name="contraceña" type="password" placeholder="Ingrese su contraceña"
+required="">
+    <br><br>
+    <!-- seccion hobbis -->
+    <label>selecciona tus hobbis:
+        <label>
+            <br>
+            <input name="cine" type="checkbox">Cine<br>
+    <input name="lectura" type="checkbox"> lectura<br>
+<input name="Deports" type="checkbox"> Departedry<br>
+<br>
+<!-- estado civil -->
+        </label>estado civil:<label><br>
+            <input name="estcivil" type="radio" value="casado">casado (a)<br>
+            <input type="estcivil" type="radio" value="soltero">soltero(a)<br>
+            <input type="estcivil" type="radio" value="viudo">viudo(a)<br>
+            <br>
+<br>
+<!-- Seleccionar opcion lista --> 
+<label>PROGRAMAS TECNICOS:</label>
+<select name="select">
+    <option>Seleccione programa...
+    </option> <option>Sistemas</option>
+    <option>Diseño gráfico</option> 
+    <option>Contabilidad</option>
+    </select>
+    <br>
+     <br>
+        </label>tu comentario:<label><br>
+    <textarea name="mensaje" rows="5" cols="40"></textarea>
+</fieldset>
+ <br><br>
+ <!-- seccion de botones formulario submit: enviar datos cancel: borrar datos ingresados -->
+
+<button type="submit">Enviar</button>
+ <button type="reset">Cancelar</button>
+ <br>
+<br>
+</form>
+</section>
+    <!-- seccion de pie de pagina -->
+    <footer>
+        <body>
+        <html>
+
+
+            
+
+
+
+
